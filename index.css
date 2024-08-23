@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("mario-bg.jpg");
+  height: 100vh;
+  background-size: cover;
+  width: auto;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.board {
+  background-image: url("soil.png");
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border: 4px solid white;
+  height: 600px;
+  width: 600px;
+  margin-left: 20vw;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
